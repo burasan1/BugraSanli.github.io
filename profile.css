@@ -1,0 +1,23 @@
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image round */
+    margin-right: 20px; /* Provides space between the image and text */
+}
+
+.intro {
+    max-width: 600px; /* Limiting the width of the introduction text */
+}
+
+.intro h1 {
+    font-size: 2em; /* Adjust size as needed */
+}
+
+.intro p {
+    font-size: 1.2em; /* Adjust size as needed */
+}
