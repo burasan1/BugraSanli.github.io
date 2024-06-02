@@ -46,12 +46,12 @@ section {
 
 .project img {
     width: 100%;
-    max-width: 1500px; /* İsteğe bağlı olarak ayarlanabilir */
+    max-width: 1500px; /* Adjust as needed */
     height: auto;
     display: block;
     margin: 0 auto;
-    object-fit: cover; /* Resmin içeriğini kesmeden belirtilen alanı doldurmasını sağlar */
-    max-height: 2000px; /* Tüm resimlerin aynı yükseklikte olmasını sağlar */
+    object-fit: cover;
+    max-height: 2000px; /* Ensures all images have the same height */
 }
 
 footer {
@@ -62,4 +62,30 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the profile within its container */
+    padding: 2em 0; /* Adds vertical padding to the profile section */
+}
+
+.profile img {
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 50%; /* Makes the image round */
+    margin-right: 20px; /* Provides space between the image and text */
+}
+
+.intro {
+    max-width: 600px; /* Limiting the width of the introduction text */
+}
+
+.intro h1 {
+    font-size: 2em; /* Adjust size as needed */
+}
+
+.intro p {
+    font-size: 1.2em; /* Adjust size as needed */
 }
