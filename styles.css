@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+#home {
+    background: #f4f4f4;
+}
+
+#about, #projects, #contact {
+    background: #fff;
+    border-top: 1px solid #ccc;
+}
+
+.project {
+    margin-bottom: 2em;
+}
+
+.project img {
+    width: 100%;
+    max-width: 1500px; /* İsteğe bağlı olarak ayarlanabilir */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover; /* Resmin içeriğini kesmeden belirtilen alanı doldurmasını sağlar */
+    max-height: 2000px; /* Tüm resimlerin aynı yükseklikte olmasını sağlar */
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
